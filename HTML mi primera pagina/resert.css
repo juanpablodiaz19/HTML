@@ -1,0 +1,85 @@
+/* Reset básico para CSS */
+
+/* Elimina márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegura que todos los elementos de bloque se comporten como tal */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif; /* Fuente por defecto */
+    line-height: 1.5; /* Altura de línea por defecto */
+}
+
+/* Establece estilos básicos para encabezados, párrafos y listas */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+p {
+    margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+ul, ol {
+    margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+/* Elimina subrayado de los enlaces */
+a {
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto */
+}
+
+/* Estilo para tablas */
+table {
+    border-collapse: collapse; /* Elimina los espacios entre bordes */
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Borde suave por defecto */
+    padding: 0.5rem; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+}
+
+/* Elimina el borde predeterminado de los formularios */
+input, select, textarea, button {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Asegura que las imágenes no se salgan del contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Asegura que los elementos de lista se comporten correctamente */
+ul, ol {
+    list-style: none;
+}
+
+/* Elimina el espaciado interno de los elementos */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Elimina los estilos predeterminados de los botones */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
